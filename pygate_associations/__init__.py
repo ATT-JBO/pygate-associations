@@ -2,7 +2,7 @@
 import logging
 logger = logging.getLogger('associations')
 import json
-from core import config, cloud, modules
+from pygate_core import config, cloud, modules
 
 _associations = {}
 
